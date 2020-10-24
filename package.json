@@ -1,0 +1,37 @@
+{
+  "name": "nightwatchGoogleTests",
+  "version": "1.0.0",
+  "description": "nightwatch 1.4 tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "eslint:fix": "eslint --fix --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironeo/nightwatchExamplev1.4.git"
+  },
+  "keywords": [
+    "nightwatch"
+  ],
+  "author": "mcz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironeo/nightwatchExamplev1.4/issues"
+  },
+  "homepage": "https://github.com/ironeo/nightwatchExamplev1.4#readme",
+  "dependencies": {
+    "chromedriver": "86.0.0",
+    "nightwatch": "1.4.3",
+    "nightwatch-html-reporter": "2.0.6",
+    "selenium-server": "3.141.59"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
