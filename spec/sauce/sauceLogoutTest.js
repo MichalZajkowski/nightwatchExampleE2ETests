@@ -1,12 +1,16 @@
 module.exports = {
   '@tags': ['sauce'],
-  'Check login to sauce': function (browser) {
+  'Check logout from sauce': function (browser) {
     const sauceLoginPage = browser.page.sauceLoginPage()
     const sauceLoggedUserPage = browser.page.sauceLoggedUserPage()
+    const sauceMenuTabPage = browser.page.sauceMenuTabPage()
 
     sauceLoginPage.openSauceLoginPage()
     sauceLoginPage.login()
     sauceLoggedUserPage.checkIsUserLogged()
+    sauceLoggedUserPage.openHamburgerMenu()
+    sauceMenuTabPage.clickLogout()
+    sauceLoginPage.checkIsOpenLoggedUser()
       .end()
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "nightwatchGoogleTests",
+  "name": "nightwatchExampleTest",
   "version": "1.0.0",
-  "description": "nightwatch 1.4 tutorial",
+  "description": "nightwatchExamplesTest",
   "main": "index.js",
   "scripts": {
     "test": "nightwatch",
@@ -9,17 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ironeo/nightwatchExamplev1.4.git"
+    "url": "https://github.com/MichalZajkowski/nightwatchExampleTest.git"
   },
   "keywords": [
     "nightwatch"
   ],
-  "author": "mcz",
-  "license": "ISC",
+  "author": "Michal Zajkowski",
   "bugs": {
-    "url": "https://github.com/ironeo/nightwatchExamplev1.4/issues"
+    "url": "https://github.com/MichalZajkowski/nightwatchExampleTest.git"
   },
-  "homepage": "https://github.com/ironeo/nightwatchExamplev1.4#readme",
+  "homepage": "https://github.com/MichalZajkowski/nightwatchExampleTest.git",
   "dependencies": {
     "chromedriver": "86.0.0",
     "nightwatch": "1.4.3",

@@ -1,12 +1,11 @@
 module.exports = {
   '@tags': ['sauce'],
-  'Check login to sauce': function (browser) {
+  'Check login to sauce with blocked user': function (browser) {
     const sauceLoginPage = browser.page.sauceLoginPage()
-    const sauceLoggedUserPage = browser.page.sauceLoggedUserPage()
 
     sauceLoginPage.openSauceLoginPage()
     sauceLoginPage.login()
-    sauceLoggedUserPage.checkIsUserLogged()
+    sauceLoginPage.checkIsVisibleErrorLoginInfo()
       .end()
   }
 }

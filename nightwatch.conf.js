@@ -16,10 +16,15 @@ module.exports = {
   custom_commands_path: 'commands/',
   custom_assertions_path: '',
   page_objects_path: [
-    'pages/googlePage',
-    'pages/googleWelcomePage',
-    'pages/googleSearchResultPage',
-    'pages/nightwatchjsPage'
+    'pages/sauceLoginPage',
+    'pages/sauceLoggedUserPage',
+    'pages/sauceAboutPage',
+    'pages/sauceMenuTabPage',
+    'pages/sauceYourCartPage',
+    'pages/sauceCheckoutYourInformationPage',
+    'pages/sauceCheckoutOverviewPage',
+    'pages/sauceSummaryOrderPage',
+    'pages/theInternetHomePage'
   ],
   globals_path: 'globals.js',
   selenium: {
@@ -82,6 +87,5 @@ module.exports = {
         }
       }
     }
-
   }
 }
