@@ -24,6 +24,11 @@ module.exports = {
     'pages/sauceCheckoutYourInformationPage',
     'pages/sauceCheckoutOverviewPage',
     'pages/sauceSummaryOrderPage',
+    'pages/theInternetAddAndRemovePage',
+    'pages/theInternetCheckboxesPage',
+    'pages/theInternetDragAndDropPage',
+    'pages/theInternetDynamicControlsPage',
+    'pages/theInternetStatusCodePage',
     'pages/theInternetHomePage'
   ],
   globals_path: 'globals.js',

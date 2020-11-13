@@ -1,6 +1,6 @@
 const HtmlReporter = require('nightwatch-html-reporter')
 
-var reporter = new HtmlReporter({
+const reporter = new HtmlReporter({
   openBrowser: false,
   reportsDirectory: 'reports',
   separateReportPerSuite: true
@@ -25,16 +25,5 @@ module.exports = {
   afterEach: function (done) {
     console.log('Closing down... afterEach')
     done()
-  },
-
-  getConfig: function (defConfFilePath) {
-    return require(this.configurationFilesLocation + defConfFilePath)
-  },
-
-  url () {
-    if (this.environment === 'pl') {
-      return 'https://news.google.com/?hl=pl&gl=PL&ceid=PL:pl'
-    }
-  },
-  reporter: reporter.fn
+  }
 }

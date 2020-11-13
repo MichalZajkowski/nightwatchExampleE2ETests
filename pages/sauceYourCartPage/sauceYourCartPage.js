@@ -1,16 +1,16 @@
-const sauceYourCartPageSelectors = require('./sauceYourCartPageSelectors')
+const selectors = require('./sauceYourCartPageSelectors')
 
 const commands = {
   checkNumberOfProductsInBasket: function (expectedNumberOfProducts) {
-    return this.expect.elements(sauceYourCartPageSelectors.listOfProducts).count.equal(expectedNumberOfProducts)
+    return this.expect.elements(selectors.listOfProducts).count.equal(expectedNumberOfProducts)
   },
 
   clickCheckoutButton: function () {
-    return this.Click(sauceYourCartPageSelectors.checkoutButton, 5000)
+    return this.Click(selectors.checkoutButton, 5000)
   }
 }
 
 module.exports = {
   commands: [commands],
-  elements: sauceYourCartPageSelectors
+  elements: selectors
 }

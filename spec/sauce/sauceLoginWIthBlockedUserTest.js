@@ -4,8 +4,8 @@ module.exports = {
     const sauceLoginPage = browser.page.sauceLoginPage()
 
     sauceLoginPage.openSauceLoginPage()
-    sauceLoginPage.login()
+    sauceLoginPage.loginWithBlockedUser()
     sauceLoginPage.checkIsVisibleErrorLoginInfo()
-      .end()
+    browser.end()
   }
 }

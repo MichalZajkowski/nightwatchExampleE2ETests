@@ -1,32 +1,32 @@
-const sauceMenuTabPageSelectors = require('./sauceMenuTabPageSelectors')
+const selectors = require('./sauceMenuTabPageSelectors')
 
 const commands = {
   openAppItemsPage: function () {
     return this
-      .CheckElementVisibility(sauceMenuTabPageSelectors.about, 5000)
-      .click(sauceMenuTabPageSelectors.allItems)
+      .CheckElementVisibility(selectors.about, 5000)
+      .click(selectors.allItems)
   },
 
   openAboutPage: function () {
     return this
-      .CheckElementVisibility(sauceMenuTabPageSelectors.about, 5000)
-      .click(sauceMenuTabPageSelectors.about)
+      .CheckElementVisibile(selectors.about, 5000)
+      .click(selectors.about)
   },
 
   clickLogout: function () {
     return this
-      .CheckElementVisibility(sauceMenuTabPageSelectors.about, 5000)
-      .click(sauceMenuTabPageSelectors.logout)
+      .CheckElementVisibile(selectors.about, 5000)
+      .click(selectors.logout)
   },
 
   openResetAppStorePage: function () {
     return this
-      .CheckElementVisibility(sauceMenuTabPageSelectors.about, 5000)
-      .click(sauceMenuTabPageSelectors.resetAppStore)
+      .CheckElementVisibile(selectors.about, 5000)
+      .click(selectors.resetAppStore)
   }
 }
 
 module.exports = {
   commands: [commands],
-  elements: sauceMenuTabPageSelectors
+  elements: selectors
 }

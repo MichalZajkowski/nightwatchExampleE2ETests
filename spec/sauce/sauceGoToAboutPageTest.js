@@ -7,9 +7,10 @@ module.exports = {
     const sauceLoggedUserPage = browser.page.sauceLoggedUserPage()
 
     sauceLoginPage.openSauceLoginPage()
-    sauceLoginPage.login()
+    sauceLoginPage.loginWithStandardUser()
     sauceLoggedUserPage.openHamburgerMenu()
     sauceMenuTabPage.openAboutPage()
     sauceAboutPage.isOpenAboutPage()
+    browser.end()
   }
 }

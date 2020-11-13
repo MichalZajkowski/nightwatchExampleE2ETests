@@ -13,7 +13,7 @@ module.exports = {
     const postalCode = '00-000'
 
     sauceLoginPage.openSauceLoginPage()
-    sauceLoginPage.login()
+    sauceLoginPage.loginWithStandardUser()
     sauceLoggedUserPage.clickFirstAddToBaskedButton()
     sauceLoggedUserPage.clickCardImageAndGoShoppingList()
     sauceYourCartPage.checkNumberOfProductsInBasket(1)
@@ -22,5 +22,6 @@ module.exports = {
     sauceCheckoutYourInformationPage.clickContinueButton()
     sauceCheckoutOverviewPage.clickFinishButton()
     sauceSummaryOrderPage.checkSummaryOrderInfo()
+    browser.end()
   }
 }

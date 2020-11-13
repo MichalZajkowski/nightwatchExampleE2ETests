@@ -1,4 +1,4 @@
-const sauceDictionary = require('../../dictionary/sauceDictionary')
+const sauceDictionary = require('./sauceDictionary')
 
 const commands = {
   isOpenAboutPage: function () {

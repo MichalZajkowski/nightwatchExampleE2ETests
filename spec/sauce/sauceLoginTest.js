@@ -5,8 +5,8 @@ module.exports = {
     const sauceLoggedUserPage = browser.page.sauceLoggedUserPage()
 
     sauceLoginPage.openSauceLoginPage()
-    sauceLoginPage.login()
+    sauceLoginPage.loginWithStandardUser()
     sauceLoggedUserPage.checkIsUserLogged()
-      .end()
+    browser.end()
   }
 }

@@ -6,11 +6,11 @@ module.exports = {
     const sauceMenuTabPage = browser.page.sauceMenuTabPage()
 
     sauceLoginPage.openSauceLoginPage()
-    sauceLoginPage.login()
+    sauceLoginPage.loginWithStandardUser()
     sauceLoggedUserPage.checkIsUserLogged()
     sauceLoggedUserPage.openHamburgerMenu()
     sauceMenuTabPage.clickLogout()
     sauceLoginPage.checkIsOpenLoggedUser()
-      .end()
+    browser.end()
   }
 }

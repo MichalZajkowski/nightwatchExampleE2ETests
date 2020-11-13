@@ -1,30 +1,37 @@
-const sauceLoginPageSelectors = require('./sauceLoginPageSelectors')
-const sauceDictionary = require('./sauceLoginPageDictionary')
+const selectors = require('./sauceLoginPageSelectors')
+const dictionary = require('./sauceLoginPageDictionary')
 
 const commands = {
   openSauceLoginPage: function () {
-    return this.api.url(sauceDictionary.homePageUrl)
+    return this.api.url(dictionary.homePageUrl)
   },
 
-  login: function () {
+  loginWithStandardUser: function () {
     return this
-      .setValue(sauceLoginPageSelectors.loginInput, sauceDictionary.loginDataStandardUser.username)
-      .setValue(sauceLoginPageSelectors.passwordInput, sauceDictionary.loginDataStandardUser.password)
-      .click(sauceLoginPageSelectors.loginButton)
+      .setValue(selectors.loginInput, dictionary.loginDataStandardUser.username)
+      .setValue(selectors.passwordInput, dictionary.loginDataStandardUser.password)
+      .click(selectors.loginButton)
+  },
+
+  loginWithBlockedUser: function () {
+    return this
+      .setValue(selectors.loginInput, dictionary.loginDataLockedOutUser.username)
+      .setValue(selectors.passwordInput, dictionary.loginDataLockedOutUser.password)
+      .click(selectors.loginButton)
   },
 
   checkIsOpenLoggedUser: function () {
     return this
-      .CheckUrl(sauceDictionary.loggedUserUrl)
-      .CheckTitlePage(sauceDictionary.pageTitle)
+      .CheckUrl(dictionary.loggedUserUrl)
+      .CheckTitlePage(dictionary.pageTitle)
   },
 
   checkIsVisibleErrorLoginInfo: function () {
-    return this.CheckElementVisibility(sauceLoginPageSelectors.errorLoginInfo, 5000)
+    this.CheckElementVisibile(selectors.errorLoginInfo, 5000)
   }
 }
 
 module.exports = {
   commands: [commands],
-  elements: sauceLoginPageSelectors
+  elements: selectors
 }

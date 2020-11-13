@@ -1,7 +1,7 @@
 {
-  "name": "nightwatchExampleTest",
+  "name": "nightwatchExampleE2ETests",
   "version": "1.0.0",
-  "description": "nightwatchExamplesTest",
+  "description": "nightwatchExampleE2ETests",
   "main": "index.js",
   "scripts": {
     "test": "nightwatch",
@@ -23,7 +23,8 @@
     "chromedriver": "86.0.0",
     "nightwatch": "1.4.3",
     "nightwatch-html-reporter": "2.0.6",
-    "selenium-server": "3.141.59"
+    "selenium-server": "3.141.59",
+    "html-dnd": "1.2.1"
   },
   "devDependencies": {
     "eslint": "^7.11.0",
@@ -31,6 +32,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "request": "^2.88.2"
   }
 }
