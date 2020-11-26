@@ -14,30 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="106402e8-2fcb-4641-9b10-a57c6b5a36dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/CheckElementVisibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/CheckElementVisibile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/CheckUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/CheckUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/sauceDictionary.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceAboutPage/sauceDictionary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/globals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nightwatch.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceAboutPage/sauceAboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceAboutPage/sauceAboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceCheckoutOverviewPage/sauceCheckoutOverviewPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceCheckoutOverviewPage/sauceCheckoutOverviewPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceCheckoutYourInformationPage/sauceCheckoutYourInformationPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceCheckoutYourInformationPage/sauceCheckoutYourInformationPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceLoggedUserPage/sauceLoggedUserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceLoggedUserPage/sauceLoggedUserPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceLoginPage/sauceLoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceLoginPage/sauceLoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceMenuTabPage/sauceMenuTabPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceMenuTabPage/sauceMenuTabPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceSummaryOrderPage/sauceSummaryOrderPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceSummaryOrderPage/sauceSummaryOrderPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sauceYourCartPage/sauceYourCartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sauceYourCartPage/sauceYourCartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/theInternetHomePage/theInternetHomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theInternetHomePage/theInternetHomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/sauce/sauceBuyOneProductTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/sauce/sauceBuyOneProductTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/sauce/sauceGoToAboutPageTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/sauce/sauceGoToAboutPageTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/sauce/sauceLoginTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/sauce/sauceLoginTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/sauce/sauceLoginWIthBlockedUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/sauce/sauceLoginWIthBlockedUserTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/sauce/sauceLogoutTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/sauce/sauceLogoutTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/theInternet/theInternetAddRemoveElementTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/theInternet/theInternetAddRemoveElementTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="10.17.44" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.47" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -111,7 +88,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -157,6 +134,9 @@
       <workItem from="1603892056744" duration="54795000" />
       <workItem from="1604956418993" duration="23776000" />
       <workItem from="1605176281407" duration="4011000" />
+      <workItem from="1605301862612" duration="964000" />
+      <workItem from="1605348010459" duration="600000" />
+      <workItem from="1606377024071" duration="45000" />
     </task>
     <servers />
   </component>
@@ -261,11 +241,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="245" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605028839976" />
-    <state x="1808" y="-1296" width="1412" height="752" key="SettingsEditor" timestamp="1605301336916">
-      <screen x="1480" y="-1440" width="2560" height="1400" />
+    <state x="246" y="107" width="1412" height="752" key="SettingsEditor" timestamp="1606377068380">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1808" y="-1296" key="SettingsEditor/0.0.1920.1040/1480.-1440.2560.1400@1480.-1440.2560.1400" timestamp="1605301336916" />
-    <state x="246" y="107" width="1412" height="752" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604956395557" />
+    <state x="246" y="107" width="1412" height="752" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606377068380" />
     <state x="10" y="125" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603657749212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
