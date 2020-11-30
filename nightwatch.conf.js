@@ -24,6 +24,7 @@ module.exports = {
     'pages/sauceCheckoutYourInformationPage',
     'pages/sauceCheckoutOverviewPage',
     'pages/sauceSummaryOrderPage',
+    'pages/restfulGETPage',
     'pages/theInternetAddAndRemovePage',
     'pages/theInternetCheckboxesPage',
     'pages/theInternetDragAndDropPage',
@@ -33,6 +34,7 @@ module.exports = {
   ],
   globals_path: 'globals.js',
   selenium: {
+    headless: true,
     start_process: true,
     server_path: selenium.path,
     log_path: '',
@@ -63,7 +65,10 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true,
         chromeOptions: {
-          args: ['incognito', 'start-fullscreen']
+          args: [
+            'incognito',
+            'headless',
+            'start-fullscreen']
         }
       }
     },
@@ -88,7 +93,7 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true,
         chromeOptions: {
-          args: ['incognito', 'headless', 'no-sandbox', 'disable-gpu']
+          args: ['incognito', 'no-sandbox', 'disable-gpu']
         }
       }
     }

@@ -4,7 +4,19 @@ const dictionary = require('./sauceLoggedUserPageDictionary')
 const commands = {
   checkIsUserLogged: function () {
     return this.api.assert.visible(
-      selectors.shoppingCardIcon,)
+      selectors.shoppingCardIcon)
+  },
+
+  selectFirstItem: function (browser) {
+    this.ClickByText(browser,"Sauce Labs Backpack")
+  },
+
+  printAllItemsNames: function(browse) {
+    return browse.elements('css selector', selectors.inventoryItemName, elements =>{
+      elements.value.forEach(el =>{
+        console.log(Object.values(el)[0])
+      })
+    })
   },
 
   openHamburgerMenu: function () {
